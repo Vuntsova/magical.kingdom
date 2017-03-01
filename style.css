@@ -1,0 +1,118 @@
+body{
+	background: url("bg6.jpg") no-repeat center center fixed;
+    display: block;
+    max-width: 90%;
+    height: auto;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.row{
+	margin-top: 70px;
+}
+#bottom{
+    position: absolute no-repeat center center fixed;
+    display: block;
+    max-width: 100%;
+    height: auto;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#story{
+    position: absolute;
+    left: 220px;
+    top: 85px;
+    display: block;
+    max-width: 70%;
+    height: auto;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+#greenCrystal, #blueCrystal, #lightBlueCrystal, #yellowCrystal, .hey, .hi, #mainNumber{
+	display: none;
+}
+#mainNumber{
+    position: absolute;
+    padding-top: 105px;
+    padding-left: 613px;
+}
+
+
+
+
+
+#total, .hey, #mainNumber, .hi, #lost{
+color: #fff;
+font-size: 20px;
+  text-decoration: none;
+  font-family: 'Berkshire Swash', cursive;
+  -webkit-animation: neon1 1.5s ease-in-out infinite alternate;
+  -moz-animation: neon1 1.5s ease-in-out infinite alternate;
+  animation: neon1 1.5s ease-in-out infinite alternate;
+}
+
+#mainNumber{
+color: #fff;
+font-size: 40px;
+position: absolute;
+padding-top: 87px;
+padding-left: 605px;
+}
+
+.hi{
+    position: absolute;
+    padding-top: 190px;
+    margin-left: -13px;
+    color: #fff;
+    font-size: 50px;
+}
+
+.hey{
+    position: absolute;
+    padding-top: 190px;
+    margin-left: 1270px;
+    color: #fff;
+    font-size: 50px;
+}
+
+#total {
+  text-decoration: none;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.2s;
+  transition: all 0.2s;
+  color: #fff;
+  font-size: 20px;
+  position: absolute;
+  padding-top: 158px;
+  padding-left: 157px;
+
+}
+
+@-webkit-keyframes neon1 {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #FF9900, 0 0 70px #FF9900, 0 0 80px #FF9900, 0 0 100px #FF9900, 0 0 150px #FF9900;
+  }
+  to {
+    text-shadow: 0 0 5px #fff, 0 0 5px #fff, 0 0 5px #fff, 0 0 10px #FF9900, 0 0 35px #FF9900, 0 0 40px #FF9900, 0 0 50px #FF9900, 0 0 75px #FF9900;
+  }
+}
+
+@media (max-width: 670px) {
+
+
+  
+
+
+
+
+
+
+
+

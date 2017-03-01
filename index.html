@@ -1,0 +1,63 @@
+<!--START-->
+<!DOCTYPE html>
+<html>
+<head>
+<!--Linking CSS & Bootstrap-->
+	<title>Crystal Game</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="bootstrap.css">
+
+</head>
+<body>
+<!--Crystal Images-->
+<div class="jumbotron">
+	<div class="container">
+	 	<img id="story" src="story.png">
+
+		<div class="row">
+			<div class="col-xs-3 col-xs-offset-9">
+			<img id="greenCrystal" src="green.png" width="40">
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-xs-10 col-xs-offset-2">
+			<img id="blueCrystal" src="light.blue.png" width="40">
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-xs-2 col-xs-offset-10">
+			<img id="lightBlueCrystal" src="blue.png" width="40">
+			</div>
+		</div>	
+
+		<div class="row">
+			<div class="col-xs-7 col-xs-offset-5">
+			<img id="yellowCrystal" src="yellow.png" width="40">
+			</div>
+		</div>	
+		<div id="total"><h3></h3></div>
+		<div id="mainNumber"><h3>0</h3></div>
+		<h3 class="hey" ><div id="win">0</div></h3>
+		<h3 class="hi"><div id="lose">0</div></h3>
+		
+	<!--Value behind crystals-->
+		<div class="values">
+			<div id="greenCrystalVal"></div>
+			<div id="blueCrystalVal"></div>
+			<div id="lightBlueCrystalVal"></div>
+			<div id="yellowCrystalVal"></div>
+		</div>
+		
+
+	</div><!--End container-->	
+</div><!--End Jumbotron-->
+
+<!--Audio-->
+	<embed src="audio.mp3" autostart="true" width="0" height="0">
+<!--Linking javaScript at the end-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="javascrypt.js"></script>
+</body>
+</html>
